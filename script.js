@@ -1,6 +1,14 @@
-let size = "kis";
-let animal = "macska";
+function logger(param) {
+    console.log(param);
+}
 
-console.log(size + animal)
-console.log("variable")
-console.log(100 + 2)
+function addTwoNumbers(num1, num2) {
+    //console.log(num1+num2)
+    let sum = num1 + num2
+    return sum
+}
+
+/* let result = addTwoNumbers(4, 27)
+logger(result) */
+
+logger(addTwoNumbers(3, 6))
