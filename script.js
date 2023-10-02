@@ -64,3 +64,4 @@ for (let i = 0; i < jsonObj.length; i++) {
         console.log(`${user.name} sadly has exact pair`)
     }
 }
+// példa
